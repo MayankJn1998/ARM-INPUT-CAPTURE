@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"trigger-event-at-specific-time\startup_stm32f407xx.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_pwr_ex.o"
+"trigger-event-at-specific-time\stm32f4xx_hal.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_tim.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_dma.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_flash_ramfunc.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_rcc.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_tim_ex.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_dma_ex.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_cortex.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_rcc_ex.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_flash_ex.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_pwr.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_flash.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_gpio.o"
+"trigger-event-at-specific-time\system_stm32f4xx.o"
+"trigger-event-at-specific-time\stm32f4xx_hal_msp.o"
+"trigger-event-at-specific-time\stm32f4xx_it.o"
+"trigger-event-at-specific-time\main.o"
+--library_type=microlib --strict --scatter "Trigger-Event-At-Specific-Time\Trigger-Event-At-Specific-Time.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Trigger-Event-At-Specific-Time.map" -o Trigger-Event-At-Specific-Time\Trigger-Event-At-Specific-Time.axf
